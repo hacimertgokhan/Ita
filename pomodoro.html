@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
+    <meta http-equiv="Content-Security-Policy">
+    <!-- importing stylesheets. -->
+
+    <link rel="stylesheet/less" type="text/css" href="./assets/style/styles.css"/>
+    <!-- importing less and fontawsome icons. -->
+
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script> 
+    <script src="https://kit.fontawesome.com/55460c171b.js" crossorigin="anonymous"></script>
+
+    <title>Ita</title>
+  </head>
+  <body>
+    
+    <div class="ita">
+      <div class="header">
+          <div class="stopwatch"></div>
+          <div class="line"></div>
+          <br>
+          <ul>
+            <li><a id="start"><i class="fa-solid fa-play"></i></a></li>
+            <li><a id="stop"><i class="fa-solid fa-stop"></i></a></li>
+            <li><a id="reset"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+          </ul>
+          <br>
+          <div class="line"></div>
+          <br>
+          <div id="time" class="current-time"></div>
+      </div>
+
+
+    </div>
+
+
+
+
+    <script src="./assets/counter.js"></script>
+  </body>
+</html>

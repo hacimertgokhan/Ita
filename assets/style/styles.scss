@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps");
+$primary-font: "Encode Sans";
+$secondary-font: "Oleo Script Swash Caps";
+$connection-font: "Bree Serif";
+
+
+:root {
+    --primary: #241F31;
+    --secondary: #30223B;
+    --other: #70234E;
+    --connection: #921F48;
+    --font: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--primary);
+}
+
+.ita {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 600px;
+    width: 900px;
+    border-radius: 50px;
+
+    .header {
+        width: 900px;
+        text-align: center;
+        height: auto;
+        .stopwatch {
+            font-family: $primary-font;
+            padding: 50px 50px 20px 50px;
+            font-size: 75px;
+            color: var(--font);
+        }
+        .current-time {
+            font-family: $primary-font;
+            font-size: 25px;
+            margin-bottom: 20px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            position: absolute;
+            color: var(--font);
+        }
+        h1 {
+            font-family: $connection-font;
+            color: var(--font);
+            padding: 50px;
+        }
+        .line {
+            width: 100%;
+            position: absolute;
+            height: 2px;
+            background-color: var(--font);
+            margin: auto;
+        }
+        ul {
+            list-style-type: none;
+            justify-content: space-evenly;
+            display: flex;
+            margin: 25px auto;
+            a {
+                color: var(--font);
+                text-decoration: none;
+                font-size: 22px;
+                font-family: $connection-font;
+                padding: 12px 20px;
+                transition: .3s;
+                border-radius: 50px;
+                cursor: pointer;
+                background-color: var(--connection);
+            }
+            a:hover {
+                color: var(--connection);
+                background-color: var(--font);
+                transition: .3s;
+            }
+        }
+
+    }
+
+}

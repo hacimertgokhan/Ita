@@ -1,0 +1,21 @@
+{
+  "name": "ita",
+  "productName": "Ita",
+  "description": "Ita, soft pomodoro application for soft lovers.",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Hacı Mert Gökhan",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "net.ita.pomodoro"
+  },
+  "devDependencies": {
+    "electron": "^25.4.0",
+    "electron-builder": "^24.6.3"
+  }
+}
