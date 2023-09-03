@@ -1,5 +1,5 @@
-# Ita
-Ita, Soft pomodoro application for windows and linux
+<h1 align="center">Ita</h1>
+
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/hacimertgokhan/Ita?color=56BEB8">
