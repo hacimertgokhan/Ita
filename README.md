@@ -16,3 +16,9 @@
 
   <img alt="Github stars" src="https://img.shields.io/github/stars/hacimertgokhan/Ita?color=56BEB8" /> 
 </p>
+
+# TR
+Masaüstü bilgisayarlar için pomodoro programı.
+
+# EN
+Pomodoro program for desktop computers.
